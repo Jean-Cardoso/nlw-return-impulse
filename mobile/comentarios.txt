@@ -1,0 +1,12 @@
+expo-shared -> Informações armazenadas e compartilhadas com o expo
+assets -> Imagens/Icones da aplicação
+
+app.json -> Informações da aplicação (Nome, versão, icones)
+
+app.tsx -> Ponto inicial da aplicação
+babel.config.js - > Informações de conversão
+
+src
+    -> assets - imagens/icones com conteudo da aplicação
+
+<View></View> -> Seria algo paralelo à <div></div> no HTML

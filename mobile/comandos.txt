@@ -1,0 +1,31 @@
+-- Iniciar a aplicação
+expo start
+
+-- Instalar fontes externas
+expo install expo-font @expo-google-fonts/inter --npm
+
+-- Verificar se a aplicação está carregando as fontes (segura a tela de splash)
+expo install expo-app-loading --npm
+
+-- Instalar biblioteca de ícones
+npm install --save phosphor-react-native
+
+-- Instalar capacidade de usar SVG
+expo install react-native-svg --npm
+
+-- Lidar com especificidade do Iphone
+npm install react-native-iphone-x-helper
+
+-- Biblioteca de gestos e animações
+expo install @gorhom/bottom-sheet@^4 --npm
+    expo install react-native-reanimated --npm
+    expo install react-native-gesture-handler --npm
+
+-- Starta o projeto sem cache
+expo start --clear                       
+
+-- Instalar biblioteca de requisições HTTP
+npm install axios
+
+-- Instalar biblioteca para tratamento de arquivos
+expo install expo-file-system
